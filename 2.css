@@ -1,0 +1,76 @@
+body
+{
+    background-image: linear-gradient(90deg, transparent, black) !important;
+}
+h1
+{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+
+}
+.f-div
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+#f-div
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+#f-div div img
+{
+    width: 300px;
+    border-radius: 20px;
+}
+#f-div div img:hover
+{
+    transform: scale(1.2,1.2);
+}
+
+#f-div div div
+{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    color: #49a098;
+    font-family: cursive;
+}
+.description
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 35px;
+    font-family: fantasy;
+    color: #bfafaf;
+}
+.f-div div img
+{
+    width: 300px;
+    margin-left: 30px;
+    border-radius: 20px;
+
+}
+@media (max-width:575px)
+{
+ 
+    body
+    {
+        background-image: linear-gradient(180deg, transparent, black) !important;
+    }
+    .f-div
+    {
+        flex-direction: column;
+    }
+}
