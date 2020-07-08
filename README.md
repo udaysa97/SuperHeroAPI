@@ -4,7 +4,7 @@ What It Does:
 *This Website utilizes API to display superheroes based on your search. The API contains over 600 super heroes. 
 
 How to view functionality:
-
+* Visit https://udaysa97.github.io/superHero.github.io/index.html
 * Open the hosted page and start typing in the  provided search box. 
 * As you type results will be dynamically displayed and you will get suggestion as you type.
 * If you like any of the displayed heros just click on I like Him button. This stores the hero in your army
